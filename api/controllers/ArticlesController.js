@@ -36,8 +36,9 @@ module.exports = {
             }
 
             res.redirect('/articles/list');
+            
         });
-
+        deleteService.notify();
         return false;
     },
     edit: function(req, res){
