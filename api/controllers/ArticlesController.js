@@ -13,6 +13,7 @@ module.exports = {
             }
             res.view('list', {articles:articles});
         });
+        listService.notify();
     },
     add: function(req, res){
         res.view('add');

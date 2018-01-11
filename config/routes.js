@@ -21,7 +21,7 @@
  */
 
 module.exports.routes = {
-
+'get /articles/list2':'ArticlesController.list',
   /***************************************************************************
   *                                                                          *
   * Make the view located at `views/homepage.ejs` (or `views/homepage.jade`, *
@@ -33,7 +33,7 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': {
-    view: 'homepage'
+    view: 'homepage'  
   }
 
   /***************************************************************************
